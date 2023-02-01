@@ -916,6 +916,10 @@ video {
     margin-left: 0px;
   }
 
+  .mobile\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .mobile\:mr-0 {
     margin-right: 0px;
   }
@@ -976,10 +980,6 @@ video {
 
   .tablet\:ml-auto {
     margin-left: auto;
-  }
-
-  .tablet\:mt-8 {
-    margin-top: 2rem;
   }
 
   .tablet\:w-fit {
@@ -1089,18 +1089,14 @@ video {
 }
 
 @media (min-width: 1200px) {
-  .desktop\:mx-3 {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
-  }
-
   .desktop\:mx-5 {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
   }
 
-  .desktop\:mt-\[-250px\] {
-    margin-top: -250px;
+  .desktop\:mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 
   .desktop\:mt-\[-150px\] {
