@@ -35,3 +35,15 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.reveal, .starting-page {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.active {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 1.4s cubic-bezier(0,.74,.58,.86);
+}
+
